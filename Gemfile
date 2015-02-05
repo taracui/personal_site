@@ -39,3 +39,10 @@ ruby '2.0.0'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# gem bootstrap-sass
+gem 'bootstrap-sass', '~> 3.3.2.1'
+
+#gem rails_12factor
+group :production, :staging do
+	gem 'rails_12factor'
+end
