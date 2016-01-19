@@ -26,13 +26,14 @@
 
 	h1 {
 		text-align: center;
-		font-family: 'Poiret One', cursive;
-		font-size: 65px;
+		font-family: 'Poiret One', 'sans-serif';
+		font-weight: 400px;
+		font-size: 70px;
 		display: inline;
 	}
 
 	img {
-		padding-left: 250px;
+		padding-left: 230px;
 		padding-right: 30px;
 		display: inline;
 	}
@@ -45,24 +46,20 @@
 
 .panel-title {
 	text-align: center;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 21px !important;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 18px !important;
 }
-
-.panel-body {
+	
+.panel-body{
 	text-align: center;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 18px;
 
-	h3{
-		text-align: center;
-		font-family: 'Quicksand', sans-serif;
-		font-size: 18px;
-	}
 }
 
 .bodyabout{
 	h3{
+		font-family: 'Quicksand', sans-serif;
+		font-size: 14px;
 		padding-left: 20px;
 		padding-right: 20px;
 		padding-bottom: 20px;
@@ -71,49 +68,45 @@
 }
 
 .bodyed{
+	padding-top: 35px;
 	h3{
-		font-size: 18px;
-		padding-top: 5px;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: bold;
+		font-size: 16px;
 		padding-bottom: 0px;
 		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-	h2{
-		font-size: 16px;
-		padding-top: 0px;
-		margin-top: 0px;
-		margin-bottom: 0px;
+		margin-bottom: 5px;
 	}
 	p{
-		font-size: 16px;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 14px;
 		padding-top: 0px;
 		margin-top: 0px;
 		padding-bottom: 5px;
-		margin-bottom: 5px;
 	}
+	padding-bottom: 20px;
 }
+
 
 .bodyproject {
 	text-align: left;
 	font-size: 16px;
-	padding-bottom: 10px;
-
-	ul{
-		padding-left: 5px;
-		padding-bottom: 5px;
-	}
-
+	padding-bottom: 5px;
 }
+
 
 .bodyskills {
 	
 	text-align: left;
-	font-size: 16px;
-	padding-bottom: 10px;
+	padding-bottom: 44px;
+	margin-top: 38px;
 
-	ul{
-		padding-left: 5px;
-		padding-bottom: 5px;
+	p{
+		line-height: 15px;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 14px;
+		padding-left: 25px;
+		margin-top: -15px;
 	}
 
 }
@@ -121,10 +114,16 @@
 .bodycontact {
 	display: inline;
 	font-size: 16px;
-	text-align: left;
+	text-align: center;
+	
 
 	p{
-		padding-left: 20px;
+		padding-top: 25px;
+		padding-bottom: 65px;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 14px;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 	
 	a{
